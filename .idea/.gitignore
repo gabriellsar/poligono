@@ -6,3 +6,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/editor.xml
+/misc.xml
+/modules.xml
+/dictionaries/project.xml
+/template.iml
+/vcs.xml
