@@ -36,9 +36,9 @@ Para formar o polígono complexo, a geometria foi dividida em três triângulos.
 
 ```cpp
   const std::vector<uint32_t> indices = {
-      2, 4, 0, (Vermelho, Roxo, Amarelo)
-      2, 3, 4, (Vermelho, Verde, Roxo)
-      2, 1, 3  (Vermelho, Azul, Verde)
+      2, 4, 0, // (Vermelho, Roxo, Amarelo)
+      2, 3, 4, // (Vermelho, Verde, Roxo)
+      2, 1, 3  // (Vermelho, Azul, Verde)
   };
 ```
 A aplicação também utiliza shaders de vértice (`vertex.glsl`) e fragmento (`fragment.glsl`) para processar os dados dos vértices e interpolar as cores ao longo da superfície dos triângulos.
